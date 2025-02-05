@@ -60,6 +60,11 @@ def retrieve_attendance(sid, session_id):
 
 # Streamlit App
 def main():
+    st.set_page_config(
+    page_title="OnDot Web",
+    page_icon="✨",
+    layout="wide",  
+)
     st.title("On-Dot")
     st.write("Web App Back-End Test -Experimental-")
     
