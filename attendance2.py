@@ -70,7 +70,7 @@ def main():
     
     # Input fields for username and password
     username = st.text_input("Enter TL Number:").strip()
-    password = st.text_input("Enter your password:", type="password").strip()
+    password = st.text_input("Enter your ERP password:", type="password").strip()
     
     if st.button("Fetch Attendance"):
         if not username or not password:
